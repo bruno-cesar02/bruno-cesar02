@@ -1,4 +1,4 @@
-# Hello! I’m Bruno Cesar 👋  
+# Hello! I’m Bruno Cesar  
 
 🔭 Software Engineering Student @ PUC Campinas  
 🌱 Learning Back-end & Front-end Development  
@@ -6,7 +6,7 @@
 📫 **Email:** brunocesarglm@outlook.com  
 ⚡ Fun fact: Passionate about tech and eager to start my professional journey!  
 
-## 📊 GitHub Stats  
+##  GitHub Stats  
 
 ![Bruno's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bruno-cesar02&show_icons=true&theme=midnight-purple)  
 
