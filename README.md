@@ -35,4 +35,4 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/otavigoto/otavigoto/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/bruno-cesar02/bruno-cesar02/output/snake.svg" alt="Snake animation" />
