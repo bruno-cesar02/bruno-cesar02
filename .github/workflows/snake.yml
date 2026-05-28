@@ -1,0 +1,42 @@
+name: Generate Snake
+
+on:
+  # Roda a cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # Permite rodar manualmente na aba Actions
+  workflow_dispatch:
+  
+  # Roda em cada commit na branch main
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      # Gera a cobrinha
+      - uses: Platane/snk@v3
+        with:
+          # Seu nome de usuário
+          github_user_name: bruno-cesar02
+          
+          # Onde o arquivo será gerado (mantivemos snake.svg para bater com seu HTML)
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # Faz o push do arquivo gerado para a branch "output"
+      - name: Push to GitHub
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
