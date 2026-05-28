@@ -35,4 +35,8 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/bruno-cesar02/bruno-cesar02/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bruno-cesar02/bruno-cesar02/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bruno-cesar02/bruno-cesar02/output/snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/bruno-cesar02/bruno-cesar02/output/snake.svg" />
+</picture>
