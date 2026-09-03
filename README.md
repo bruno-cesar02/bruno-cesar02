@@ -1,10 +1,10 @@
 # Hello! I’m Bruno Cesar  
 
-🔭 Software Engineering Student @ PUC Campinas  
-🌱 Learning Back-end & Front-end Development  
-💬 Ask me about tech, studies, or projects!  
+Software Engineering Student @ PUC Campinas  
+Learning Back-end & Front-end Development  
+Ask me about tech, studies, or projects!  
 📫 **Email:** brunocesarglm@outlook.com  
-⚡ Fun fact: Passionate about tech and eager to start my professional journey!  
+
 
 ##  GitHub Stats  
 
